@@ -1,0 +1,23 @@
+
+.story__container {
+  text-align: justify;
+  line-height: 1.8;
+}
+
+.story__container p {
+  margin-top: 1rem;
+}
+
+
+/* ================ MEDIA QUERIES (MEDIUM SCREENS) ================ */
+
+@media screen and (max-width: 1024px) {
+    
+  }
+  
+  
+  /* ================ MEDIA QUERIES (SMALL SCREENS) ================ */
+  
+  @media screen and (max-width: 600px) {
+    
+  }
