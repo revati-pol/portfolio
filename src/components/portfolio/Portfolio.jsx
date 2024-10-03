@@ -58,7 +58,7 @@ function Portfolio(props) {
                 GitHub
             </a>
             <a
-                href="https://revati-pol.github.io/css-project/"
+                href="https://revati-pol.github.io/css-project"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn btn-primary"
