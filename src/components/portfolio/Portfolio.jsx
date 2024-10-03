@@ -15,7 +15,13 @@ function Portfolio(props) {
             <img src={IMG1} alt="" />
           </div>
           <h3> Full Stack Stock Trading Platform </h3>
-          <a className="btn btn-primary"> Ongoing </a>
+          <a
+            className="btn btn-primary"
+            href="#home"
+            onClick={(e) => e.preventDefault()}
+          >
+            Ongoing
+          </a>
         </article>
 
         <article className="portfolio__item">
@@ -50,24 +56,23 @@ function Portfolio(props) {
           <h3> Clone of Spotify Website </h3>
           <div className="portfolio__item-cta">
             <a
-                href="https://github.com/revati-pol/css-project"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="btn"
+              href="https://github.com/revati-pol/css-project"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn"
             >
-                GitHub
+              GitHub
             </a>
             <a
-                href="https://revati-pol.github.io/css-project"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="btn btn-primary"
+              href="https://revati-pol.github.io/css-project"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn btn-primary"
             >
-                Live Demo
+              Live Demo
             </a>
           </div>
         </article>
-        
       </div>
     </section>
   );

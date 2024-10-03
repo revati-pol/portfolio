@@ -8,7 +8,7 @@ import './header.css';
 
 function Header(props) {
   return (
-    <header>
+    <header id="home">
       <div className="container header__container">
         <h4> Hello there! I'm </h4>
         <h1> Revati Pol </h1>
